@@ -15,7 +15,7 @@ const Home = () => {
     <>
       <section className="relative min-h-screen pt-[38%] text-right md:px-32 md:pt-[20%] 2xl:px-96">
         <div className="absolute left-0 top-0 -z-20 block h-[calc(100vh_-_(100vh_-_100%))] w-[calc(100vw_-_(100vw_-_100%))] bg-gradient-to-br from-sky-300 via-teal-300 to-emerald-200" />
-        <div className="absolute left-0 top-0 -z-20 block h-[calc(100vh_-_(100vh_-_100%))] w-[calc(100vw_-_(100vw_-_100%))] bg-gradient-to-t from-white via-white/15 to-transparent" />
+        <div className="absolute left-0 top-0 -z-20 block h-[calc(100vh_-_(100vh_-_100%))] w-[calc(100vw_-_(100vw_-_100%))] bg-gradient-to-t from-stone-100 via-stone-50/50 to-transparent" />
         <Title />
         <Navigation />
         <div>
@@ -83,7 +83,7 @@ const Home = () => {
           </section>
         </div>
       </section>
-      <section className="mt-12 bg-background">
+      <section className="mt-12">
         <article className="md:px-32 2xl:px-96">
           <h2 className="ml-8 font-serif text-4xl">Hello, world!</h2>
           <Separator className="my-6" />
