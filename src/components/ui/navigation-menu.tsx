@@ -41,7 +41,7 @@ NavigationMenuList.displayName = NavigationMenuPrimitive.List.displayName
 const NavigationMenuItem = NavigationMenuPrimitive.Item
 
 const navigationMenuTriggerStyle = cva(
-  "inline-flex h-11 w-max items-center justify-center rounded-full border-[1px] border-primary-foreground px-3 font-mono text-sm font-semibold text-primary-foreground shadow-lg transition-colors hover:bg-primary-foreground hover:text-foreground focus:bg-primary-foreground focus:text-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-45 data-[active]:bg-primary-foreground data-[state=open]:bg-primary-foreground data-[active]:text-foreground data-[state=open]:text-foreground"
+  "bg-striped inline-flex h-11 w-max items-center justify-center rounded-full border-[1px] border-primary-foreground px-3 font-mono text-sm font-bold text-primary-foreground shadow-lg transition-colors hover:text-primary focus:text-primary focus:outline-none disabled:pointer-events-none disabled:opacity-45 data-[active]:text-foreground data-[active]:text-primary data-[state=open]:text-primary"
 )
 
 const NavigationMenuTrigger = React.forwardRef<
@@ -55,7 +55,7 @@ const NavigationMenuTrigger = React.forwardRef<
   >
     {children}{" "}
     <ChevronDown
-      className="relative left-1 top-[1px] h-3 w-3 text-primary-foreground transition duration-200 group-hover/trigger:text-foreground group-focus/trigger:text-foreground group-data-[state=open]/trigger:rotate-180 group-data-[state=open]/trigger:text-primary"
+      className="relative left-1 top-[1px] h-3 w-3 text-primary-foreground transition duration-200 group-data-[state=open]/trigger:rotate-180"
       aria-hidden="true"
     />
   </NavigationMenuPrimitive.Trigger>
