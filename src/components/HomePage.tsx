@@ -103,8 +103,7 @@ const HomePage = () => {
                 congue neque eleifend, laoreet massa. Sed libero velit, placerat
                 cursus ultrices vel, consectetur id arcu. Aliquam nec quam
                 posuere, accumsan nunc quis, eleifend risus. Vivamus at rhoncus
-                enim. Vestibulum consectetur ipsum a vulputate imperdiet. Cras
-                placerat mi quam, eu commodo dui accumsan eget.
+                enim. Vestibulum consectetur ipsum a vulputate imperdiet.
               </p>
             </div>
             <Card className="lg:mx-44">
@@ -120,7 +119,7 @@ const HomePage = () => {
                 </p>
               </CardContent>
             </Card>
-            <div className="grid gap-8 lg:grid-cols-2">
+            <div className="grid items-center gap-8 lg:grid-cols-2">
               <p>
                 Proin mattis imperdiet tortor, ac pellentesque enim aliquet ac.
                 Donec nec tellus hendrerit, laoreet elit at, sodales nulla.
