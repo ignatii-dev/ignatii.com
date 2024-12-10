@@ -1,6 +1,6 @@
 const HomeSiteTitle = () => {
   return (
-    <h1 className="text-shadow relative translate-y-[-50%] pb-2 pr-7 font-serif text-6xl text-primary-foreground">
+    <h1 className="shadow-text-md relative translate-y-[-50%] pb-2 pr-7 font-serif text-6xl text-primary-foreground">
       ignatii
     </h1>
   )

@@ -110,11 +110,15 @@
     }
   }
 
-  .text-shadow {
-    text-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+  .shadow-text-none {
+    text-shadow: none;
   }
 
-  .text-shadow-sm {
+  .shadow-text-sm {
     text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+
+  .shadow-text-md {
+    text-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
   }
 }

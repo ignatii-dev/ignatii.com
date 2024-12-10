@@ -7,7 +7,7 @@ const HomePage = () => {
   return (
     <>
       <HomeHero />
-      <section className="mt-12 md:px-8 2xl:px-16">
+      <section className="mt-12 pb-44 md:px-8 2xl:px-16">
         <article className="md:px-32 2xl:px-96">
           <h2 className="ml-8 font-serif text-4xl">Hello, world!</h2>
           <Separator className="my-6" />
