@@ -29,6 +29,9 @@ jobs:
       # Build application
       - name: Build application
         run: pnpm run build
+      # Setup repository Pages
+      - name: Set up GitHub Pages
+        uses: actions/configure-pages@v5
       # Upload built artifact
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
